@@ -45,7 +45,29 @@ Usually when we talk about space complexity, we're talking about additional spac
 the inputs.
 
 # Logarithms
+What power must we raise this base to, in order to get this answer?
+**Logarithm rules**
+1. Simplification: ![expression](https://latex.codecogs.com/gif.latex?%5Clog_%7Bb%7D%28b%5E%7Bx%7D%29%20%3D%20x)
+
+2. Multiplication: ![expression](https://latex.codecogs.com/gif.latex?%5Clog_%7Bb%7D%28x%20*%20y%29%20%3D%20log_%7Bb%7Dx%20&plus;%20log_%7Bb%7Dy)
+
+3. Division: ![expression](https://latex.codecogs.com/gif.latex?%5Clog_%7Bb%7D%28x%20/%20y%29%20%3D%20log_%7Bb%7D%28x%29%20-%20log_%7Bb%7D%28y%29)
+
+4. Powers: ![expression](https://latex.codecogs.com/gif.latex?%5Clog_%7Bb%7D%28x%5Ey%29%20%3D%20y*log_%7Bb%7D%28x%29)
+
+5. Change of base: ![expression](https://latex.codecogs.com/gif.latex?%5Clog_%7Bb%7D%28x%29%20%3D%20log_%7Bc%7D%28x%29/log_%7Bc%7D%28b%29)
+
 # Triangular Series
+# Sorting
+1. Quick Sort
+2. **Merge Sort**
+
+In merge sort, the idea is to divide the array in half, sort the two halves, and then merge the two sorted halves into one sorted whole.
+
+3. Selection Sort
+4. Bubble Sort
+5. Counting Sort
+
 # Binary Search
 # Breadth-First Search
 # Depth-First Search
