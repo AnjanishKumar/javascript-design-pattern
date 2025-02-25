@@ -37,8 +37,9 @@ var seat = myPartFactory.createPart( {
   isReclinable : false
 } );
 
-// create a door with deault option
+// create a door with default option
 var door = myPartFactory.createPart({partType:'door'});
+
 
 console.log( seat instanceof CarSeat ); // logs 'true
 
