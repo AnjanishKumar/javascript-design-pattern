@@ -1,13 +1,13 @@
 function CarDoor( options ) {
   this.color = options.color || 'red';
   this.side = options.side || 'right';
-  this.hasPowerWindows = options.hasPowerWindows || true;
+  this.hasPowerWindows = options.hasPowerWindows ?? true;
 }
 
 function CarSeat( options ) {
   this.color = options.color || 'gray';
   this.material = options.material || 'leather';
-  this.isReclinable = options.isReclinable || true;
+  this.isReclinable = options.isReclinable ?? true;
 }
 
 function CarPartFactory() {}
